@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Profile</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="me.css">
+</head>
+<body>
+	<div id="nav-bar">
+		<nav><hr>
+			<p>
+				<p id="stud"><u>RONGO UNIVERSITY STUDENT PORTAL</u></p>
+				<a href="Noticeboard.html">NOTICEBOARD |</a>
+				<a href="fees.html">FEES STATEMENT |</a>
+				<a href="#">FEES REGISTRATION|</a>
+				<a href="exam.html"> EXAM CARD |</a>
+				<a href="Student Portal.html"> LOG OUT</a>
+			</p>
+			<hr>
+		</nav>
+	</div>
+	<form>
+		<div>
+			<img id="dp" src="dp.jpg" alt="Profile Picture" style="float: right">
+			<h4>My Profile</h4>
+			<!--<div><img src="" alt="Profile Picture" style="float: right"></div>-->
+			<cite>Personal Info.</cite>
+			<br>
+			<label>
+				Student Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter your name" minlength="4" required>
+			</label>
+			<br>
+			<label>
+				Date of Birth:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" placeholder="dd/mm/yyyy" required>
+			</label>
+			<br>
+			<label>
+				Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select id="input" required><option>--Select your Gender--</option><option value="Male">Male</option><option value="Female">Female</option></select>
+			</label>
+			<br>
+			<label>
+				Age:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="--Do not fill--">
+			</label>
+			<br>
+			<label>
+				Religion:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select id="input">
+					<option>--Religion--</option>
+					<option value="Christianity">Christianity</option>
+					<option value="Islam">Islam</option>
+					<option value="Hinduism">Hinduism</option>
+					<option value="Rastafarianism">Rastafarianism</option>
+					<option value="Other">Other</option>
+				</select>
+			</label>
+			<br>
+			<label>
+				Phone No. 1:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="tel" required>
+				<br>
+				Phone No. 2:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="tel" required>
+			</label>
+			<br>
+			<label>
+				Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email">
+			</label>
+			<br>
+			<br>
+			<br>
+		</div>
+		<div>
+			<cite>School Info.</cite>
+			<br>
+			<label>
+				Registration No.:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" required>
+			</label>
+			<br>
+			<label>
+				Programme:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select required>
+					<option>--Select your programme--</option>
+					<option value="Certificate">Certificate</option>
+					<option value="Diploma">Diploma</option>
+					<option value="Undergraduate Programme(Bsc., BA, B.Ed)">Undergraduate Programme(Bsc., BA, B.Ed)</option>
+					<option value="Postgraduate Programme">Postgraduate Programme</option>
+				</select>
+			</label>
+			<br>
+			<label>
+				Course:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" required>
+			</label>
+			<br>
+			<label>
+				KCSE Grade:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select id="input" required>
+					<option>--Grade--</option>
+					<option value="A">A</option>
+					<option value="A-">A-</option>
+					<option value="B+">B+</option>
+					<option value="B">B</option>
+					<option value="B-">B-</option>
+					<option value="C+">C+</option>
+					<option value="C">C</option>
+					<option value="C-">C-</option>
+					<option value="D+">D+</option>
+					<option value="D">D</option>
+					<option value="D-">D-</option>
+					<option value="E">E</option>
+				</select>
+			</label>
+			<br>
+			<label>
+				Next of Kin:<input type="name" required>
+				Relationship:<select>
+					<option value="Mother">Mother</option>
+					<option value="Father">Father</option>
+					<option value="Sibling">Sibling</option>
+					<option value="Guardian">Guardian</option>
+					<option value="Relative">Relative</option>
+					<option value="Grandparent">Grandparent</option>
+				</select>
+			</label>
+			<br>
+			<label>
+				Hostel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select id="input">
+					<option>--Please fill after admission--</option>
+					<option>Paradise Hostel</option>
+					<option>Oxford Hostel</option>
+					<option>Jersey Hostel</option>
+					<option>Karen Hostel</option>
+					<option>Bethel Hostel</option>
+					<option>Nyamarambe Hostel</option>
+				</select>
+			</label>
+			<br>
+			<hr>
+			<button type="reset">Edit Profile</button>
+			<button id="save" type="submit">Save Profile</button>
+		</div>
+	</form>
+</body>
+<br>
+<hr>
+<div id="hr">
+	<a href="me.html">BACK TO TOP |</a>
+	<a href="exam.html"> EXAM CARD |</a>
+	<a href="Student Portal.html"> LOG OUT</a>
+</div>
+<hr>
+<hr>
+<footer>© COPYRIGHT RONGO UNIVERSITY 2021 | ALL RIGHTS RESERVED</footer>
+<hr>
+<hr>
+<footer>Designed by MORI KELI</footer>
+<hr>
+</html>
