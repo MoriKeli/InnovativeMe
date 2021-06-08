@@ -1,17 +1,24 @@
-/*Write a program that outputs 100 lines, numbered 1 to 100, each with your name on it.*/
+/*Write a program that asks the user for a year and prints whether it is a leap year or not.*/
 #include <stdio.h>
+
 int main()
 {
-    int my_name;
-    for(my_name=0; my_name<=100; my_name++)
+    int yr;
+    printf("Enter a year: ");
+    scanf("%d", & yr);
+
+    if (yr%4==0 && yr%100!=0)
     {
-        printf("%d", my_name);
-        printf(". Mori Keli.\n");
-        /*The following printf statement will also work:
-
-         * printf("%d. Mori Keli", my_name);
-
-         */
+        printf("%d is a leap year.", yr);
+    }
+    else if (yr%100==0 && yr%400==0)
+    {
+        printf("%d", yr);
+        printf(" yr is  a leap yr");
+    }
+    else {
+        printf("%d", yr);
+        printf(" is not a leap year.");
     }
     return 0;
 }
